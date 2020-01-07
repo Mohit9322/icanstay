@@ -1,0 +1,154 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Analytics (3.6.0)
+  - APParallaxHeader (0.1.6)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Branch (0.14.12):
+    - Branch/Core (= 0.14.12)
+    - Branch/without-IDFA (= 0.14.12)
+  - Branch/Core (0.14.12)
+  - Branch/without-IDFA (0.14.12)
+  - CCMPopup (1.1.0)
+  - Fabric (1.6.13)
+  - FBSDKCoreKit (4.22.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.22.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.22.0):
+    - FBSDKCoreKit
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.6.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - Google/Analytics (3.0.3):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (3.0.3):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.0.3):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleAnalytics (3.17.0)
+  - GoogleMaps (1.11.1)
+  - GoogleSignIn (4.0.2):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.9):
+    - GTMSessionFetcher/Full (= 1.1.9)
+  - GTMSessionFetcher/Core (1.1.9)
+  - GTMSessionFetcher/Full (1.1.9):
+    - GTMSessionFetcher/Core (= 1.1.9)
+  - MBProgressHUD (0.9.2)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - MoEngage-iOS-SDK (3.3.1)
+  - Segment-MoEngage (3.0.0):
+    - Analytics (~> 3.0)
+    - MoEngage-iOS-SDK (~> 3.0)
+  - TwitterCore (2.8.0):
+    - Fabric
+  - TwitterKit (2.8.1):
+    - TwitterCore (>= 2.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.4)
+  - Analytics (~> 3.0)
+  - APParallaxHeader
+  - Branch
+  - CCMPopup
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Google/Analytics
+  - Google/SignIn
+  - GoogleMaps (~> 1.11.0)
+  - MBProgressHUD (~> 0.9.2)
+  - MMDrawerController (~> 0.5.7)
+  - MoEngage-iOS-SDK
+  - Segment-MoEngage
+  - TwitterKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Analytics: 15be3e651d22cc811f44df65698538236676437b
+  APParallaxHeader: 854bc48a2487ca12c702f8a236fec0d89cdac5c3
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Branch: f63d9cf82ac09747349a73184a0b739d28781c4d
+  CCMPopup: e41fad5b8a0823c9cddea8eab6d431670c9dabe5
+  Fabric: 2fb5676bc811af011a04513451f463dac6803206
+  FBSDKCoreKit: c693bad19feb225469eeff14452ba364522ee48b
+  FBSDKLoginKit: 1fa529fc622d7b32ebeaffbecd377180833c6d30
+  FBSDKShareKit: 21ab3c8d173f4fa20c47c1061f3a9fac5950b5fa
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  Google: cd92fab98f800f509da88c1e0c570275713bc9d5
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleMaps: c947160008f414c66707a5ea60f35e92055c7670
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  MoEngage-iOS-SDK: e6e07e38c808a3374970a94c1292e687535f0c8e
+  Segment-MoEngage: f36ab34420cd7333eedfcf891df0b589c421b709
+  TwitterCore: e959987be23c767004d29eb7fab8d85d8585a2e5
+  TwitterKit: 3b6044a7320340326a4098f3e37aa1dbaeb94942
+
+PODFILE CHECKSUM: 2b2f6ec52ac980b65b5b0af55630a6d8cf7db51c
+
+COCOAPODS: 1.2.1

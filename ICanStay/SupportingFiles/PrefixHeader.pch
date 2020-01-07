@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  ICanStay
+//
+//  Created by Namit Aggarwal on 25/02/16.
+//  Copyright (c) 2016 Harry Patel (Hitaishin). All rights reserved.
+//
+
+#ifndef ICanStay_PrefixHeader_pch
+#define ICanStay_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "ICSingletonManager.h"
+#import "BottomMenu.h"
+#import "CanStayConstant.h"
+#import "LoginScreen.h"
+#import "MMDrawerController.h"
+#import "UIViewController+MMDrawerController.h"
+#import "LoginManager.h"
+#import "UIImageView+AFNetworking.h"
+#import "MBProgressHud.h"
+#import "AFNetworking.h"
+#import <Google/Analytics.h>
+
+
+#define kDebug 1
+#ifndef DLog
+#if kDebug
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+#endif
+
+#endif
